@@ -9,7 +9,7 @@
 Neste presente documento, apresento uma análise detalhada dos desafios enfrentados atualmente pela empresa TechPlus e as abordagens que serão utilizadas para solucionar suas dores.
 
 ---
-## Contexto
+## Contexto - TechPlus
 **Ambiente**: Um comércio local de eletrônicos e acessórios, com atendimento presencial e dinâmico.
 
 **Pessoas envolvidas**:
@@ -23,3 +23,34 @@ Neste presente documento, apresento uma análise detalhada dos desafios enfrenta
 
 ---
 ## Identificação dos problemas
+- **Ausência de registro estruturado dos atendimentos**: verifica-se isso por não haver um sistema interno que guarde os dados referentes ao atendimento dos clientes, em especial nos casos em que não há vendas e, tendo uma base de dados com estes registros, poderia ser usado para analisar o motivo da não venda, por exemplo, se é algum produto em específico que alguns/vários clientes desejam, mas não encontram;
+- **Falta de padronização nos atendimentos**: clientes relatam que receberam orientações diferentes em momentos distintos e dúvidas que se repetem costantemente, sem identificação clara do momento em que isso ocorre;
+- **Achismo ao invés de dados**: alguns atendentes acham que o problema está na abordagem inicial, outros acham que seria importante registrar o que foi orientado ao cliente, mas não há dados que possam avaliar onde está a causa principal do problema e, assim, gerar um plano para solucioná-lo;
+- **Falta de entendimento do problema**: a equipe não sabe quais são as dúvidas mais frequentes, quais os produtos que geram mais indecisão, qual o percentual de conversão em vendas, quais situações geram mais retrabalho e/ou retorno do cliente e quais os motivos de alguns atendimentos nao se converterem em vendas.
+
+---
+## Recorte do problema
+Apresentei esta análise à gerência da loja, identificando os problemas a serem solucionados a fim de gerar mais confiabilidade ao negócio. Em primeira instância, sugeri priorizar o desenvolvimento de um CRM para armazenamento estruturado do atendimento ao cliente e visibilidade do funil de atendimento até a venda.
+
+**Motivo**:
+Se conseguirmos resolver estes problemas priorizados:
+- conseguimos medir a conversão
+- traçamos as dúvidas recorrentes dos clientes
+- criamos base para padronização
+- geramos dados para decisões
+
+---
+## Objetivo da solução
+Desenvolvimento de um sistema simples e prático que:
+- Registre atendimentos em tempo real
+- Classifique o tipo de atendimento
+- Registre dúvidas e produtos envolvidos
+- Registre se houve conversão ou não no atendimento
+- Permita visualizar:
+  - Taxa de conversão
+  - Produtos com maior indecisão
+  - Dúvidas mais frequentes
+  - Motivos de não venda
+  - Motivos de retorno
+
+A solução será desenvolvida no ambiente Microsoft (Power Apps).
