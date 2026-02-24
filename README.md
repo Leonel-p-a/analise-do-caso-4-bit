@@ -51,4 +51,11 @@ Desenvolvimento de um sistema simples e prático que:
   - Produtos com maior indecisão
   - Dúvidas mais frequentes
   - Motivos de não venda
+ 
 A solução será desenvolvida no ambiente Microsoft (Power Apps).
+
+ ---
+ ## Melhorias Fututras (Adicional)
+ Nas próximas versões do Sistema, podemos incluir:
+ - Mecânica para verificar a Recorrência de um cliente para possibilitar atendimentos mais personalizados
+ - Taxa de conversão de clientes novos vs recorrentes
