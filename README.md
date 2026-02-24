@@ -51,6 +51,4 @@ Desenvolvimento de um sistema simples e prático que:
   - Produtos com maior indecisão
   - Dúvidas mais frequentes
   - Motivos de não venda
-  - Motivos de retorno
-
 A solução será desenvolvida no ambiente Microsoft (Power Apps).
