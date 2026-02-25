@@ -56,6 +56,9 @@ A solução será desenvolvida no ambiente Microsoft (Power Apps).
 
  ---
  ## Melhorias Fututras (Adicional)
- Nas próximas versões do Sistema, podemos incluir:
+ Nas próximas versões do Sistema, visando deixá-lo o mais completo possível para que a experiência seja a melhor, podemos incluir:
  - Mecânica para verificar a Recorrência de um cliente para possibilitar atendimentos mais personalizados
  - Taxa de conversão de clientes novos vs recorrentes
+ - Criar campo específico para data na tabela de atendimentos (atualmente estamos utilizando a coluna padrão do SharePoint Created At), para poder cadastrar atendimentos retroativos (caso o funcionário tenha esquecido de cadastrar), implementando um visual de calendário no Power Apps
+ - Criar coluna de preços na tabela de produtos. Isso permitiria visualizar faturamento, quais produtos dão mais lucro, etc., o que daria uma visão mais ampla e estratégica do negócio
+ - Implementar coluna de estoque na tabela de produtos. Isso permitiria que os funcionários tivessem maior controle sobre os itens a serem repostos e a urgência (utilizando, em conjunto, a métrica de vendas de produtos, para verificar a prioridade de necessidade dos produtos)
